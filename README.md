@@ -15,4 +15,4 @@ A modern, responsive video conferencing web app for seamless meetings with frien
 - React Icons
 
 ## Author
-Shagun Chaudhary
+Shagun Choudhary
