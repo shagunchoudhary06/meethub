@@ -25,18 +25,13 @@ const VideoComp = () => {
 
       zp.joinRoom({
         container: containerRef.current,
-        sharedLinks: [
-          {
-            name: 'Personal link',
-            url:
-              window.location.protocol +
-              '//' +
-              window.location.host +
-              window.location.pathname +
-              '?roomID=' +
-              roomID,
-          },
-        ],
+       sharedLinks: [
+        {
+          name: 'Personal link',
+          url:` $
+          {window.location.origin}/room/${roomID}`,
+        },
+      ],
         scenario: {
           mode: ZegoUIKitPrebuilt.GroupCall,
         },
